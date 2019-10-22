@@ -7,7 +7,7 @@
         "core": "*",
 		"neopixel": "github:microsoft/pxt-neopixel#v0.4.2"
     },
-    "description": "Golden",
+    "description": "BitRobot",
     "files": [
 		"README.md",
         "main.ts",
