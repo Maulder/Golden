@@ -86,7 +86,7 @@ enum BBPixelMode {
  * Custom blocks
  */
 //% weight=2 color=#0050BB icon="\uf1b9"
-namespace BitRobot {
+namespace Golden {
     //let lhRGBLight: APDS9960;
     let neoStrip: Strip;
     //% shim=sendBufferAsm
