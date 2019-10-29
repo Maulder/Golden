@@ -666,7 +666,7 @@ namespace BitRobot {
 
         if ((motor == BBMotor.Left) || (motor == BBMotor.All)) {
             pins.analogWritePin(AnalogPin.P0, realSpeed);
-            pins.digitalWritePin(DigitalPin.P8, forward ? 0 : 1);
+            pins.digitalWritePin(DigitalPin.P9, forward ? 0 : 1);
         }
 
         if ((motor == BBMotor.Right) || (motor == BBMotor.All)) {
