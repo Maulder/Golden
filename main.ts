@@ -665,7 +665,7 @@ namespace BitRobot {
         }
 
         if ((motor == BBMotor.Left) || (motor == BBMotor.All)) {
-            pins.analogWritePin(AnalogPin.P3, realSpeed);
+            pins.analogWritePin(AnalogPin.P0, realSpeed);
             pins.digitalWritePin(DigitalPin.P8, forward ? 0 : 1);
         }
 
@@ -684,7 +684,7 @@ namespace BitRobot {
     //% blockId="bitbot_buzz" block="蜂鳴器 %flag"
     //% weight=99
     export function buzz(flag: BBBuzzONOFF): void {
-        pins.digitalWritePin(DigitalPin.P0, flag === 0 ? BBBuzzONOFF.buzzOFF : BBBuzzONOFF.buzzOn);
+        pins.digitalWritePin(DigitalPin.P14, flag === 0 ? BBBuzzONOFF.buzzOFF : BBBuzzONOFF.buzzOn);
     }
 
     /**
